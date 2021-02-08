@@ -1,13 +1,14 @@
 # learn_linux_file
 git clone https://github.com/15510912905/learn_linux_file.git
-git clone ssh://git@github.com:15510912905/learn_linux_file.git
+//git clone ssh://git@github.com:15510912905/learn_linux_file.git  ??
 
 git init
 git add <filename>
 git add *                                           /* 增加文件是到暂存区 临时保存 */
 git commit -a -m "log"                              /* 提交到HEAD 指向你最后一次提交的结果 */
-git push origin master                              /* 将本地仓库推送到远端 origin 远端地址 master远端分支 不填为默认为当前分支 eg:1.git push https://github.com/15510912905/learn_linux_file.git 2.git push ssh://git@github.com:15510912905/learn_linux_file.git */
+git push origin master                              /* 将本地仓库推送到远端 origin 远端地址 master远端分支 不填为默认为当前分支 eg:1.git push https://github.com/15510912905/learn_linux_file.git 2.git push git@github.com:15510912905/learn_linux_file.git */
 git remote add origin <server>                      /* 如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器 */
+
 git checkout -b feature_x                           /* 创建一个叫做“feature_x”的分支，并切换过去 */
 git checkout master                                 /* 切换分支 */
 git branch -d feature_x                             /* 删掉分支 */
