@@ -1,6 +1,6 @@
 # learn_linux_file
 git clone https://github.com/15510912905/learn_linux_file.git
-//git clone ssh://git@github.com:15510912905/learn_linux_file.git  ??
+git clone git@github.com:15510912905/learn_linux_file.git       /* 克隆主分支 */
 
 git init
 git add <filename>
