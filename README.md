@@ -1,12 +1,10 @@
 # learn_linux_file
+
 git clone https://github.com/15510912905/learn_linux_file.git     /* 克隆主分支 */
 git clone git@github.com:15510912905/learn_linux_file.git         /* 克隆主分支 */
-<<<<<<< HEAD
-=======
 
 git push https://github.com/15510912905/learn_linux_file.git      /* 推送当前分支 */
 git push git@github.com:15510912905/learn_linux_file.git          /* 推送当前分支 */
->>>>>>> 20210208_0910
 																  
 git init                                                          
 git add <filename>                                                
@@ -23,7 +21,11 @@ git push origin <branch>
 git pull                                                          /* 更新 */
 git merge <branch>                                                /* 合并分支 需要合并到什么分支 需要先切换到此分支 然后将要合并的分支填写到branch处 eg:将branch合并到master 1.git checkout master 2.git merge branch */
 git diff <source_branch> <target_branch>                          /* 预览差异 */
-												                  
+git diff                                                          /* 合并分支时查看不同点 */
+git status -s                                                     /* 查看冲突 */
+git add *                                                         /* 告诉GIT冲突已解决 */
+git commit                                                        /* 确认提交 */	
+	
 git tag -a V1.0.0                                                 /* 创建标签 */
 git log                                                           /**/
 												                  
@@ -38,4 +40,6 @@ git config format.pretty oneline                                  /* 显示历�
 git add -i                                                        /* 交互式添加文件到暂存区 */
 												                  
 ssh-keygen -t rsa -C "arris9@163.com"                             /* 生成 SSH Key */
+
+
 
