@@ -18,7 +18,7 @@ git pull                                            /* 更新 */
 git merge <branch>                                  /* 合并分支 需要合并到什么分支 需要先切换到此分支 然后将要合并的分支填写到branch处 eg:将branch合并到master 1.git checkout master 2.git merge branch */
 git diff <source_branch> <target_branch>            /* 预览差异 */
 
-git tag 1.0.0                                       /* 创建标签 */
+git tag -a V1.0.0                                   /* 创建标签 */
 git log                                             /**/
 
 git checkout -- <filename>                          /* 替换掉本地改动 */
