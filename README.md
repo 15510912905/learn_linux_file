@@ -16,7 +16,7 @@ git remote add origin <server>                                    /* 如果你�
 git checkout -b feature_x                                         /* 创建一个叫做“feature_x”的分支，并切换过去 */
 git checkout master                                               /* 切换分支 */
 git branch -d feature_x                                           /* 删掉分支 */
-git push origin <branch>                                          
+git push origin <branch>                                          /* 推送 */                                 
 												                  
 git pull                                                          /* 更新 */
 git merge <branch>                                                /* 合并分支 需要合并到什么分支 需要先切换到此分支 然后将要合并的分支填写到branch处 eg:将branch合并到master 1.git checkout master 2.git merge branch */
@@ -25,6 +25,7 @@ git diff                                                          /* 合并分�
 git status -s                                                     /* 查看冲突 */
 git add *                                                         /* 告诉GIT冲突已解决 */
 git commit                                                        /* 确认提交 */	
+git branch -d feature_x                                           /* 合并完成后记得删掉分支 */
 	
 git tag -a V1.0.0                                                 /* 创建标签 */
 git log                                                           /**/
