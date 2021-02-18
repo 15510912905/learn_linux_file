@@ -14,6 +14,12 @@ route add default gw 192.168.10.1
 echo "nameserver 114.114.114.114" > /etc/resolv.conf
 */
 
+uname -srm     /* 查询版本 */
+
+ARCH=arm
+CROSS_COMPILE=arm-linux-gnueabihf-
+
+
 /* 将本地文件复制到远程 */
 scp /home/namefile root@192.168.10.200:/home/root/wqfile
 scp -r /home/namedir root@192.168.10.200:/home/root/wqfile
