@@ -3,6 +3,7 @@
 git clone https://github.com/15510912905/learn_linux_file.git                     /* 克隆主分支 */
 git clone git@github.com:15510912905/learn_linux_file.git                         /* 克隆主分支 */
 git clone -b 20210208_1152 git@github.com:15510912905/learn_linux_file.git        /* 克隆分支代码 */
+git clone -b 20210208_1152 https://github.com/15510912905/learn_linux_file.git    /* 克隆分支代码 */
 
 git push https://github.com/15510912905/learn_linux_file.git                      /* 推送当前分支 */
 git push git@github.com:15510912905/learn_linux_file.git                          /* 推送当前分支 */

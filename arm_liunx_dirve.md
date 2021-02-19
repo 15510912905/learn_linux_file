@@ -44,6 +44,15 @@ ls /dev/chrdevbase -l
 /* 第四步 */
 rmmod chrdevbase.ko                       /* 卸载驱动模块 */
 
+uname -srm                         //查看内核版本
+ls /dev/sda*                       //查看usb设备
+ls /dev/ttyUSB*                    //查看u转串
+df -h                              //df命令检查Linux系统磁盘空间                   
+lsblk                              //列出块设备 
+sudo fdisk -l                      //查看你系统中的所有分区表，包括所有的USB设备
+dmesg                              //识别出 USB 设备名
+file *name                         //查看文件信息包括架构
+
 
 
 
